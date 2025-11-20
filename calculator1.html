@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <p>
+      <button
+        class="cal-btn"
+        onclick="calculation += '1'; // This is the short version of no.2 
+        // String being used to remove error which is caused due to more expressions are adding. 
+     console.log(calculation)"
+        ;
+      >
+        1
+      </button>
+      <button
+        class="cal-btn"
+        onclick="calculation = calculation + '2';
+     console.log(calculation)"
+        ;
+      >
+        2
+      </button>
+      <button
+        class="cal-btn"
+        onclick="calculation = calculation + '3';
+     console.log(calculation)"
+        ;
+      >
+        3
+      </button>
+      <button
+        class="op-btn"
+        onclick="calculation = calculation + ' + ' ;
+     console.log(calculation)"
+        ;
+      >
+        +
+      </button>
+    </p>
+
+    <p>
+      <button
+        class="cal-btn"
+        onclick="calculation = calculation + '4'; 
+      console.log(calculation)"
+        ;
+      >
+        4
+      </button>
+
+      <button
+        class="cal-btn"
+        onclick="calculation = calculation + '5'; 
+      console.log(calculation)"
+        ;
+      >
+        5
+      </button>
+
+      <button
+        class="cal-btn"
+        onclick="calculation += '6'; 
+      console.log(calculation)"
+        ;
+      >
+        6
+      </button>
+
+      <button
+        class="op-btn"
+        onclick="calculation += ' - '; 
+      console.log(calculation)"
+        ;
+      >
+        -
+      </button>
+    </p>
+
+    <p>
+      <button
+        class="cal-btn"
+        onclick="calculation = calculation + '7'; 
+      console.log(calculation)"
+        ;
+      >
+        7
+      </button>
+      <button
+        class="cal-btn"
+        onclick="calculation = calculation + '8'; 
+      console.log(calculation)"
+        ;
+      >
+        8
+      </button>
+      <button
+        class="cal-btn"
+        onclick="calculation = calculation + '9'; 
+      console.log(calculation)"
+        ;
+      >
+        9
+      </button>
+      <button
+        class="op-btn"
+        onclick="calculation = calculation + ' * '; 
+      console.log(calculation)"
+        ;
+      >
+        *
+      </button>
+    </p>
+
+    <p>
+      <button
+        class="cal-btn"
+        onclick="calculation = calculation + '0' ;
+      console.log(calculation)"
+        ;
+      >
+        0
+      </button>
+
+      <button
+        class="cal-btn"
+        onclick="calculation = calculation + '.' ;
+      console.log(calculation)"
+        ;
+      >
+        .
+      </button>
+
+      <button
+        class="cal-btn"
+        onclick="calculation = eval(calculation);
+      console.log(calculation)"
+        ;
+      >
+        =
+      </button>
+      <button
+        class="op-btn"
+        onclick="calculation = calculation + '/';
+      console.log(calculation)"
+        ;
+      >
+        /
+      </button>
+    </p>
+
+    <button
+      class="cal-btn"
+      onclick="calculation = ''; 
+      console.log(calculation)"
+      ;
+    >
+      <span style="font-size: large">Clear</span>
+    </button>
+
+    <script>
+      let calculation = "";
+    </script>
+  </body>
+</html>
